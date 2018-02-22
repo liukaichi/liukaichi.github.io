@@ -1,6 +1,4 @@
-source 'https://rubygems.org'
-
-# 'github-pages' includes 'jekyll' gem 
-gem 'github-pages'
-gem 'bourbon'
+source "https://rubygems.org"
+gemspec
 gem 'jemoji'
+gem 'jekyll-paginate'
