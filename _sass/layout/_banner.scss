@@ -10,9 +10,8 @@
 		@include padding(10em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
 
 		.inner {
-			margin: 0 auto;
+			margin: 6em auto 12em auto;
 			width: _size(inner);
-			min-height: 80vh;
 		}
 
 		.logo {
@@ -48,7 +47,7 @@
 			@include vendor('filter', 'blur(0)');
 			opacity: 1;
 			border-bottom: solid 2px _palette(border);
-			font-size: 3em;
+			font-size: 2.75em;
 			margin-bottom: _size(element-margin) * 0.4;
 			padding-bottom: _size(element-margin) * 0.2;
 		}
@@ -67,7 +66,7 @@
 			font-size: 1em;
 			font-weight: _font(weight-heading);
 			letter-spacing: _font(kern-heading);
-			line-height: 2;
+			line-height: 1.2;
 			text-transform: uppercase;
 		}
 

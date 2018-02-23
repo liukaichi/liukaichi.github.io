@@ -81,10 +81,9 @@
 			> header {
 				@include padding(3.75em, 2em, (2.75em, 0, _size(wrapper-edges, small) * 0.5, 0));
 
-				background-size:		auto,
-										125%;
-
-		 		margin-bottom: (_size(wrapper-edges, small) * -1);
+				background-size: auto, 125%;
+				background-position: center, 0% 0%;
+				margin-bottom: (_size(wrapper-edges, small) * -1);
 
 				h2 {
 					font-size: 1.25em;
@@ -136,10 +135,11 @@
 
 		.enticer{
 					@include icon;
-					float: right;
+					float: center;
 					margin: 0 1.5em 1.5em 0;
 					color: rgba(255, 255, 255, 0.6);
 					//content: '\f078';
+					width: _size(inner);
 		}
 
 		.inner {
@@ -179,7 +179,9 @@
 				width: 32em;
 				overflow: hidden;
 				-ms-flex: 1;
-
+				 &.large{
+					 flex: 1.5;
+				 }
 				img {
 					border-radius: 10%;
 					width: 100%;
@@ -189,7 +191,11 @@
 			.content {
 				width: 100%;
 				-ms-flex: 2;
-
+				.image-container {
+						text-align:left;
+						position:relative;
+						top:5em;
+				}
 				.row{
 					margin: 0;
 				}
@@ -206,7 +212,12 @@
 				}
 
 				.image {
-					margin: 0 0 _size(element-margin) _size(section-spacing, large);
+					margin: 0;
+					//margin: 0 0 _size(element-margin) _size(section-spacing, large);
+				}
+
+				span{
+					align-items: flex-end;
 				}
 			}
 
@@ -246,7 +257,10 @@
 				.image {
 					margin: 0 _size(section-spacing, medium) _size(element-margin) 0;
 					width: 32em;
+					-ms-flex: 1;
 				}
+
+
 
 				&:nth-child(2n - 1) {
 					.image {
@@ -282,8 +296,15 @@
 				}
 
 				.image {
-					width: 19em;
+					width: 32em;
 					margin: 0 _size(section-spacing, small) _size(element-margin) 0;
+					overflow: hidden;
+					-ms-flex: 1;
+
+					img {
+						border-radius: 10%;
+						width: 100%;
+					}
 				}
 
 				&:nth-child(2n - 1) {
@@ -302,8 +323,15 @@
 
 				.image {
 					margin: 0 0 (_size(element-margin) * 0.5) 0 !important;
-					max-width: 85%;
-					width: 12em;
+					max-width: 100%;
+					width: 32em;
+					overflow: hidden;
+					-ms-flex: 1;
+
+					img {
+						border-radius: 10%;
+						width: 100%;
+					}
 				}
 			}
 		}
