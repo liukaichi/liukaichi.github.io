@@ -97,6 +97,13 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+		&.subtitle{
+			color: rgba(255, 255, 255, 0.5);
+				margin: 0 0 2em 0;
+		}
+		&.nowrap{
+			white-space: nowrap;
+		}
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -139,12 +146,14 @@
 
 	span{
 		&.major{
-			padding-bottom: 1em;
 			border-bottom: solid 2px _palette(border);
 			margin: 0 0 2em 0;
 			display: flex;
 			flex-direction: row-reverse;
 			width: 100%;
+			&.left-aligned{
+				flex-direction: row;
+			}
 		}
 	}
 

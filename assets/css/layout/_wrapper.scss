@@ -176,7 +176,8 @@
 
 			.image {
 				border-radius: 10%;
-				margin: 0 _size(section-spacing, large) _size(element-margin) 0;
+				margin: 0;
+				//margin: 0 _size(section-spacing, large) _size(element-margin) 0;
 				width: 32em;
 				overflow: hidden;
 				-ms-flex: 1;
@@ -207,18 +208,15 @@
 
 				p {
 					margin-bottom: _size(section-spacing, large);
+				&.subtitle{
+					margin-bottom: 2em;
 
-					&.subtitle{
-						color: rgba(255, 255, 255, 0.5);
-						margin-bottom: _size(section-spacing, small);
-						white-space: nowrap;
-					}
+				}
 				}
 			}
 			span{
 				&.major{
 					align-items: flex-end;
-					flex-direction: row-reverse;
 				}
 			}
 
@@ -285,7 +283,8 @@
 
 			&.spotlight {
 				.image {
-					margin: 0 _size(section-spacing, medium) _size(element-margin) 0;
+					margin: 0;
+					//margin: 0 _size(section-spacing, medium) _size(element-margin) 0;
 					width: 32em;
 					-ms-flex: 1;
 				}
@@ -294,7 +293,8 @@
 
 				&:nth-child(2n - 1) {
 					.image {
-						margin: 0 0 _size(element-margin) _size(section-spacing, medium);
+							margin: 0;
+						//margin: 0 0 _size(element-margin) _size(section-spacing, medium);
 					}
 				}
 			}
@@ -327,7 +327,8 @@
 
 				.image {
 					width: 32em;
-					margin: 0 _size(section-spacing, small) _size(element-margin) 0;
+					margin: 0;
+					//margin: 0 _size(section-spacing, small) _size(element-margin) 0;
 					overflow: hidden;
 					-ms-flex: 1;
 
@@ -339,7 +340,8 @@
 
 				&:nth-child(2n - 1) {
 					.image {
-						margin: 0 0 _size(element-margin) _size(section-spacing, small);
+						margin: 0;
+						//margin: 0 0 _size(element-margin) _size(section-spacing, small);
 					}
 
 					span{
@@ -360,7 +362,8 @@
 				}
 
 				.image {
-					margin: 0 0 (_size(element-margin) * 0.5) 0 !important;
+					margin: 0;
+					//margin: 0 0 (_size(element-margin) * 0.5) 0 !important;
 					max-width: 100%;
 					width: 32em;
 					overflow: hidden;
