@@ -211,6 +211,7 @@
 					&.subtitle{
 						color: rgba(255, 255, 255, 0.5);
 						margin-bottom: _size(section-spacing, small);
+						white-space: nowrap;
 					}
 				}
 			}
@@ -242,7 +243,8 @@
 				h2{
 					&.major{
 						&.no-border{
-							float:right;
+							display:block;
+							text-align: right;
 						}
 					}
 				}
