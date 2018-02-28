@@ -9,7 +9,7 @@ hiringManagerFull: Mr. Jason Lee
 companyName: BandLab
 companyAddressLine1: 12 Jln Kilang Barat
 page.companyAddressLine2: Singapore 159354
-resumePath: /files/Resume - JL - BandLab.pdf
+resumeLink: https://liukaichi.github.io/files/Resume%20-%20JL%20-%20BandLab.pdf
 hiringManagerShort: Mr. Lee
 ---
 There are moments in my life where my heart is set racing even when I'm sitting still: envisioning my next beatboxing routine, reliving my first jiu-jitsu match, or finally piecing together a impactful solution with my app. As I've followed through with these moments, they've become some of my most meaningful experiences to me. As cheesy as it sounds, thinking of the prospect of working with BandLab has set my heart racing. I feel that my experience and passion for music will make me a great fit for this job.
