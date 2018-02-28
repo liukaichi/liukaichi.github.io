@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{{page.title}}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				{% include header.html %}
+
+
+				<!-- Banner -->
+					<section id="banner" >
+						<div class="inner compact">
+							<!-- <div class="logo"><span class="icon fa-diamond"></span></div> -->
+							<h2>Justin Liu</h2>
+              <p>BandLab Cover Letter</p>
+              <ul class="contact compact">
+								<li class="fa-home" style="">
+									633C Senja Road <br />
+									#18-139<br />
+									S673633
+								</li>
+								<li class="fa-phone">+65 8781-7054</li>
+								<li class="fa-envelope"><a href="#">liukaichi@gmail.com</a></li>
+							</ul>
+
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+            <!-- Dummy section to get the alignment right-->
+            <section id="one" class="wrapper alt spotlight style1">
+            </section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner compact">
+									<div class="content compact">
+										<!-- <h2 class="major">Tempus adipiscing</h2> -->
+                    <p>{{page.formattedDate}}</p>
+                    <p>{{page.hiringManagerFull}}<br/>
+                      {{page.companyName}}<br/>
+                      {{page.companyAddressLine1}}<br/>
+                      {{page.companyAddressLine2}}
+                    </p>
+                    <p>Dear {{page.hiringManagerShort}}</p>
+										<p>{{page.content}}</p>
+
+										<a href="{{page.resumePath}}" target="_blank" style="margin-top:2em;" class="button">See Resumé</a>
+									</div>
+								</div>
+							</section>
+
+					</section>
+
+
+
+          {% include footer.html %}
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/lightbox.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

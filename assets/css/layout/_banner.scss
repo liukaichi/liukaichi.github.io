@@ -13,6 +13,10 @@
 			margin: 0 auto;
 			width: _size(inner);
 			min-height: 80vh;
+			&.compact{
+
+				min-height: 0vh;
+			}
 		}
 
 		.logo {
@@ -69,6 +73,18 @@
 			letter-spacing: _font(kern-heading);
 			line-height: 2;
 			text-transform: uppercase;
+		}
+
+		li {
+			@include vendor('transition', (
+				'opacity 0.5s ease',
+				'transform 0.5s ease',
+				'filter 0.25s ease',
+			));
+			@include vendor('transform', 'translateX(0)');
+			@include vendor('transition-delay', '1.0s');
+			@include vendor('filter', 'blur(0)');
+			opacity: 1;
 		}
 
 		@include breakpoint(large) {
@@ -133,6 +149,11 @@
 			}
 
 			p {
+				opacity: 0;
+				@include vendor('transform', 'translateX(0.5em)');
+				@include vendor('filter', 'blur(2px)');
+			}
+			li {
 				opacity: 0;
 				@include vendor('transform', 'translateX(0.5em)');
 				@include vendor('filter', 'blur(2px)');

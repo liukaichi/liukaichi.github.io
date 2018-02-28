@@ -70,6 +70,19 @@
 			text-transform: uppercase;
 		}
 
+		ul {
+			@include vendor('transition', (
+				'opacity 0.5s ease',
+				'transform 0.5s ease',
+				'filter 0.25s ease',
+			));
+			@include vendor('transform', 'translateX(0)');
+			@include vendor('transition-delay', '0.65s');
+			@include vendor('filter', 'blur(0)');
+			opacity: 1;
+
+		}
+
 		@include breakpoint(large) {
 			@include padding(7em, 0, (0, 0, _size(wrapper-edges, large) * 0.5, 0));
 

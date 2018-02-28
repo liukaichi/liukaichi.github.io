@@ -147,6 +147,10 @@
 			@include padding(3em, 0);
 			margin: 0 auto;
 			width: _size(inner);
+
+			&.compact{
+				padding: 0;
+			}
 		}
 
 		@for $i from 2 through _misc(max-wrapper-styles) {
@@ -205,14 +209,19 @@
 						padding: 0;
 					}
 				}
-
+				&.compact{
+					p {
+						margin-bottom: 1em;
+					}
+				}
 				p {
 					margin-bottom: _size(section-spacing, large);
-				&.subtitle{
-					margin-bottom: 2em;
+					&.subtitle{
+						margin-bottom: 2em;
+					}
 
 				}
-				}
+
 			}
 			span{
 				&.major{
