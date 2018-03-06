@@ -9,7 +9,7 @@ hiringManagerFull: Mr. Huan Yang
 companyName: Grab
 companyAddressLine1: 28 Sin Ming Ln, <span>#</span>01-143
 page.companyAddressLine2: Singapore 573972
-resumeLink: https://liukaichi.github.io/files/Resume%20-%20Justin%20Liu%20-%20March%202018.pdf
+resumeLink: https://liukaichi.github.io/files/Grab%20Resume%20-%20Justin%20Liu.pdf
 hiringManagerShort: Mr. Yang
 ---
 The prospect of working with Grab is extremely exciting for me. Being able to give of my time and talents to positively affect the lives of millions of people would be simply <i>amazing</i>. Because Grab is an app so focused on the service it gives to its users, I feel that my experience and passion for coding user-centered apps will make me a great fit for this job.
