@@ -9,7 +9,7 @@ hiringManagerFull: Ms. Rajvi Savla
 companyName: Viki
 companyAddressLine1: 138 Market St., <span>#</span>32-01, CapitaGreen
 page.companyAddressLine2: Singapore 048946
-resumeLink: https://liukaichi.github.io/files/Resume%20-%20JL%20-%20Feb%202018.pdf
+resumeLink: https://liukaichi.github.io/files/Resume%20-%20JL%20-%20Current.pdf
 hiringManagerShort: Ms. Savla
 ---
 There are moments in my life where my heart is set racing even when I'm sitting still: envisioning my next beatboxing routine, reliving my first jiu-jitsu match, or finally piecing together a impactful solution with my app. As I've followed through with these moments, they've become some of my most meaningful experiences to me. As cheesy as it sounds, thinking of the prospect of working with Viki has set my heart racing. I feel that my experience and passion for coding user-centered apps will make me a great fit for this job.
