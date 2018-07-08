@@ -5,12 +5,12 @@ layout: coverletter
 category: coverletter
 tags: coverletter
 formattedDate: 5 July 2018
-hiringManagerFull: xxxxxxxxxxxxxxxxxxxxx
+hiringManagerFull: Vivi Fesilia Effendy
 companyName: nuTonomy
-companyAddressLine1: xxxxxxxxxxxxxxxxxxxxx
-page.companyAddressLine2: xxxxxxxxxxxxxxxxxxxxx
+companyAddressLine1: 77 Ayer Rajah Crescent, 01-30
+page.companyAddressLine2:  Singapore 139954
 resumeLink: https://liukaichi.github.io/files/Resume%20-%20JL%20-%20July%202018.pdf
-hiringManagerShort: xxxxxxxxxxxxxxxxxxxxxxxxx
+hiringManagerShort: Vivi
 ---
 When introduced to the idea about a self-driving car, many people's first reaction (especially in the older generation) is fear and skepticism. Will it keep me and my loved ones safe? How will I know the car will make the right decisions? As a User Experience Designer, this problem has deep meaning to me because it requires a beautiful balance between company goals and user needs. If autonomous vehicles seem unsafe or untrustworthy, it won't matter how great the product actually is -- it won't be used. I would love to discuss how I could contribute my skills as a UX designer to help nuTonomy reach out to a tentative community as it ventures out to a new age of technology.
 
